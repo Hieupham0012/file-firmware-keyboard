@@ -1,0 +1,38 @@
+{
+  "name": "PiparFlake ZMK VIA",
+  "vendorId": "0x1D50",
+  "productId": "0x6170",
+  "matrix": {
+    "rows": 3,
+    "cols": 3
+  },
+  "customKeycodes": [
+    {
+      "name": "Bluetooth Next",
+      "title": "Select Next Bluetooth Profile",
+      "shortName": "BT NEXT"
+    },
+    {
+      "name": "Bluetooth Clear",
+      "title": "Clear Bluetooth Bonds",
+      "shortName": "BT CLR"
+    },
+    {
+      "name": "System Reset",
+      "title": "Reset Keyboard",
+      "shortName": "RESET"
+    },
+    {
+      "name": "Bootloader",
+      "title": "Enter Bootloader",
+      "shortName": "BOOT"
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1", "0,2\n\n\n\n\n\n\n\n\ne0"],
+      ["1,0", "1,1", "1,2"],
+      ["2,0", "2,1", "2,2"]
+    ]
+  }
+}
